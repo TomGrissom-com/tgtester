@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="DTCSS.css">
+    </head>
+    <body>
+            <div id="header">
+        <div class="nav topnav">
+                <img href="index.php" class="logo" src="img/TG.png" alt="TGLogo">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <nav>
+                        <a href="index.php">Home/about</a>
+                        <a href="services.php">Services</a>
+                        <a href="contact.php">Contact</a>
+                    </nav>
+                </div>
+            </div>
+            <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+        </div>
+    </div>
+<div class="section-wrap">
+    <div style="border: dotted 5px red; margin: auto; text-align: center; padding: 5px;">
+        <h1>DEMO TESTER HTML</h1>
+        <p>DEMO!</p>
+        <form action="services.php">
+               <button class="button-36" role="button" title="New Product Announcement">Learn More</button><br><i></i>
+        </form>
+    </div>
+</div>
+<div class="section-wrap">
+       <div class="centerup">
+        <p><h1><strong>Hello!</strong></h1>
+        <br>My name is Thomas Grissom. You may call me Tom. <br><br>I have developed this site for my clients. It is an access point for them to come to use the products, services and resources I provide for them. <br>I also use it to act as a sort of <a href="https://drive.google.com/file/d/16jMEVaXhdIodhgxVuH_36SWDw1nUyV8p/view?usp=sharing" target="_blank" style='color: blue;'>"Resumé."</a> :)
+        <br><br>If this is your first time here or you have stumbled upon the site you can see the products and services I offer <a href="services.php" ><b>HERE</b></a>. Thanks for visiting!<br><br>
+        <strong>Tom Grissom,</strong><br>
+        REALTOR<br>
+        Database Designer and Manager | CRM / Inventory Specialist <br>
+        PipeDrive CRM Affiliate Partner<br>
+     
+        "Making vital business decisions requires understanding our data."<br>
+        <img src="img/Alex SOLO.png" alt="Alex_solo" style="width:10%; background-color: white; padding: 0;">
+        <a href="https://pipedrive.grsm.io/q5w01hyjmufc" target="_blank" title="An awesome CRM!"><img src="img/partner_affiliate_white@1600x.png" alt="Pipedrive_affiliate_Partner" style="width:20%; padding: 0;"></a><br>
+        and a <strong>Sales Agent</strong> for<br>
+        <a href="https://alexgrissom.kw.com/" target="_blank"><img src="img/kw/KW LOGO clear.png" alt="kw_logo_clear" title="Click to search for homes!" style="width:20%; background-color: white; padding: 0;"></a><br>
+        <br>
+        The Texas Real Estate Commission requires that we provide you the following notification:
+        <a href="https://drive.google.com/file/d/1Q5x3p2g8hdeNCj3tegCY9wT9GMPSU-D9/view?usp=sharing" target="_blank"><strong style="color: Blue;">IABS</strong></a>  which lets you know who represents who in a real estate transaction, the rules we should follow, and who to contact if you need to contact the Brokerage. Please copy and paste the link into the address line of your browser if the link will not work.
+        </p>
+    </div>
+</div>
+<footer>
+    <div>
+        <div style="text-align: center;">
+            <p>Contact || Call  Today - 903.350.1885 || Tom@TomGrissom.com</p>
+            &copy; 2021 TomGrissom.com Website. All rights Reserved
+        </div>
+    </div>
+</footer>
+
+        <div>TODO write content</div>
+    </body>
+</html>
